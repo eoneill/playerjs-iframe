@@ -25,13 +25,11 @@
 
   "parser": "babel-eslint",
 
-  "plugins": [
-
-  ],
+  "plugins": [],
 
   "rules": {
     "block-scoped-var": 2,
-    "brace-style": [2, "stroustrup"],
+    "brace-style": [2, "1tbs"],
     "camelcase": 1,
     "curly": 2,
     "eol-last": 2,
@@ -48,10 +46,11 @@
       "vars": "all",
       "args": "none"
     }],
-    "quotes": [2, "double", "avoid-escape"],
+    "quotes": [2, "single", "avoid-escape"],
     "semi": [2, "always"],
     "space-after-keywords": [2, "always"],
-    "object-curly-spacing": [2, "never"],
+    "space-before-function-paren": [2, { "anonymous": "always", "named": "never" }],
+    "object-curly-spacing": [2, "always"],
     "computed-property-spacing": [2, "never"],
     "array-bracket-spacing": [2, "never"]
   }

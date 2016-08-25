@@ -1,17 +1,34 @@
-# PlayerjsIframe
+# Player.js Iframe
 
-TODO
+[Player.js](https://github.com/embedly/player.js/) iframe adapters.
 
-##
+## Installation
 
-To build...
 ```
-npm run build
-```
-
-To dev...
-```
-npm run dev
+$ npm install playerjs-iframe --save-dev
 ```
 
-and open [http://localhost:8080](http://localhost:8080) to see it in use.
+## Supported Adapters
+
+- Vimeo
+- YouTube
+
+## Build
+
+```
+$ npm run build
+```
+
+## Development
+
+```
+$ npm run dev
+```
+
+Visit [http://localhost:8080](http://localhost:8080)
+
+## Testing
+
+```
+$ npm run test
+```
